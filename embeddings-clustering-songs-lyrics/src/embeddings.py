@@ -1,9 +1,6 @@
 import os
 from sentence_transformers import SentenceTransformer
-# from openai import OpenAI
-# from cache_decorator import Cache
-
-# openai = OpenAI()
+from sklearn.cluster import KMeans
 
 model = SentenceTransformer("all-mpnet-base-v2")
 
@@ -34,5 +31,3 @@ def load_files(directory="data"):
 #         with open(os.path.join(directory, file), 'r') as f:
 #             data[file] = f.read()
 #     return data
-
-

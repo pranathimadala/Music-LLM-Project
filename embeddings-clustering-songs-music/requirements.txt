@@ -1,0 +1,10 @@
+openai
+numpy
+scikit-learn
+tqdm
+cache-decorator
+compress-json
+compress-pickle
+deflate-dict
+dict-hash
+humanize
